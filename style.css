@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "ADLaM Display", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  background: #f5f5f5;
+  height: 100vh;
+  overflow-x: hidden;
+}
+:root {
+  --main-color: #003329;
+  --second-color: #007747;
+}
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--main-color);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--second-color);
+}
+/* Header */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 50px;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.5s;
+}
+.logo {
+  position: relative;
+  margin-right: 250px;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.logo a {
+  color: var(--second-color);
+  text-decoration: none;
+  font-weight: bolder;
+}
+nav ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  position: relative;
+  list-style: none;
+  padding: 5px 10px;
+  transition: 0.5s;
+}
+nav ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: var(--second-color);
+  padding: 8px 18px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-weight: 500px;
+  transition: 0.5s;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  position: relative;
+  background-color: var(--second-color);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: #fff;
+}
+/* Home section */
+.parallex {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.parallex #text {
+  position: absolute;
+  font-size: 5rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+  text-align: center;
+}
+.parallex img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  pointer-events: none;
+}
+/* text section */
+.text-section {
+  position: relative;
+  background-color: #003329;
+  padding: 100px;
+  overflow: hidden;
+}
+.text-section h2 {
+  color: #ffffff;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.text-section p {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
