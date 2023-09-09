@@ -1,3 +1,4 @@
+// Path: app.js
 let hill1 = document.getElementById("hill1");
 let text = document.getElementById("text");
 let hill4 = document.getElementById("hill4");
@@ -15,3 +16,4 @@ window.addEventListener("scroll", () => {
   leaf.style.top = value * -1.5 + "px";
   leaf.style.left = value * 1.5 + "px";
 });
+
