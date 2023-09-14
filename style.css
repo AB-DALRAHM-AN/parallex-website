@@ -166,10 +166,10 @@ ul li a.active {
 }
 @media (max-width: 767px) {
   .parallex {
-    height: 70vh;
+    height: 50vh;
   }
   .parallex img {
-    height: 70vh;
+    height: 50vh;
   }
   .parallex #text {
     font-size: 4rem;
@@ -180,10 +180,10 @@ ul li a.active {
 }
 @media (max-width: 450px) {
   .parallex {
-    height: 70vh;
+    height: 50vh;
   }
   .parallex img {
-    height: 70vh;
+    height: 50vh;
   }
   .parallex #text {
     font-size: 3rem;
